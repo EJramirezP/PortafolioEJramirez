@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es_La">
+    <meta charset="UTF-8">
+    <title>Pagina Web De Pruebas</title> 
+  </head>
+<body>
+    <main>
+        <h1>
+            Mi priemera pagina
+        </h1>
+        <section>
+            <h2>App de fotos de gatos</h2>
+            <h3>Fotos de gatos</h3>
+            <!--Para poder comentar -->
+            <p>Ve mas <a target="_blank" href='https://freecatphotoapp.com'>fotos de gatos</a> en tu galeria.</p>
+            <a href="https://freecatphotoapp.com"><img
+                    src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                    alt="un lindo gato naranja"></a>
+        </section>
+        <section>
+            <h2>Lista de gatos</h2>
+            <h3>Cosas que los gatos aman:</h3>
+            <ul>
+                <li>Hierba de gato</li>
+                <li>Punteros Lasers</li>
+                <li>Lasagna</li>
+            </ul>
+            <figure><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                    alt='Una lasagna uy rica'>
+                <figcaption>Los gatos <em>aman</em> la lasagna.</figcaption>
+                <figcaption>Los gatos <em>aman</em> la lasagna.</figcaption>
+                <figcaption>Los gatos <em>aman</em> la lasagna.</figcaption>
+            </figure>
+            <h3>Tres cosas que los gatos odian</h3>
+            <ol>
+                <li>Tratamiento de pulgas</li>
+                <li>Trueno</li>
+                <li>Otros gatos</li>
+            </ol>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                    alt="Cinco gatos mirando alredodor encima de una tabla">
+                <figcaption>Los gatos <strong>odian</strong> a otros gatos</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Formulario de gatos</h2>
+            <form action="../FRECODE/datos.txt"></form>
+            <fieldset>
+                <legend>Tu gato permanece en casa o al aire libre ?</legend>
+                <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked>Dentro de Casa</label>
+                <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Al aire libre</label>
+            </fieldset>
+            <fieldset>
+                <legend>Cual es su personalidad ?</legend>
+                <input type="checkbox" id="loving" name="personality" value="loving" checked> <label for="loving"> Amoroso </label>
+                <input type="checkbox" id="lazy" name="personality" value="lazy"> <label for="lazy"> Loco </label>
+                <input type="checkbox" id="energetic" name="personality" value="energetic"> <label for="energetic">Energetico</label>
+            </fieldset>
+            <input type="text" name="urlfotodegato" placeholder="url de la foto de la gato" required>
+            <button type="submit">Enviar</button>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
