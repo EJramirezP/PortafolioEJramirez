@@ -1,0 +1,147 @@
+h1,
+h2,
+p {
+    text-align: center;
+
+}
+
+
+body {
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/712/624/856/sheet-board-texture-coffee-beans-hd-wallpaper-preview.jpg');
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+/*
+.item p {
+    display: inline-block;
+  }
+  
+  .flavor {
+    text-align: left;
+    width: 50%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 50%;
+  }
+  */
+
+
+/* Con este código, estamos definiendo un contenedor para los elementos item */
+.item {
+    display: flex;
+    /* Establecemos el contenedor como un flex container */
+    justify-content: center;
+    /* Centramos los elementos horizontalmente */
+
+}
+
+.item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/* Aquí definimos el estilo de la etiqueta p con la clase flavor */
+.flavor,
+.dessert {
+    text-align: left;
+    /* Establecemos el texto a la izquierda */
+    width: 70%;
+    /* Definimos el ancho de la columna de texto */
+}
+
+/* Aquí definimos el estilo de la etiqueta p con la clase price */
+.price {
+    text-align: right;
+    /* Establecemos el texto a la derecha */
+    width: 20%;
+    /* Definimos el ancho de la columna de texto */
+}
+
+h1,
+h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+
+.established {
+    font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: blue;
+
+}
+
+a:active {
+    color: blue;
+
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button {
+    background-color: #FFC107;
+    border: none;
+    color: FFF;
+    padding: 5px 5px; 
+     text-align: center; 
+     display: inline-block;
+     border-radius: 10px;
+
+    }
+.button:hover {
+  background-color: #E65100; /* Cambiar el color de fondo al pasar por encima */
+}
+
